@@ -1,0 +1,30 @@
+{
+   "name":"boxy",
+   "description":"node.js sandboxing",
+   "version":"0.0.1",
+   "homepage":"http://github.com/wearefractal/boxy",
+   "repository":"git://github.com/wearefractal/boxy",
+   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+    "main":"./boxy.coffee",
+
+   "engines":{
+      "node":">= 0.4.0"
+   },
+
+   "dependencies":{
+      "protege":"*",
+      "coffee-script":"*"
+   },
+    
+   "devDependencies":{
+      "should":"*"
+   },
+
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/wearefractal/boxy/raw/master/LICENSE"
+      }
+   ]
+}
+
