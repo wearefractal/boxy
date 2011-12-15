@@ -1,3 +1,2 @@
-_boxy_ is an abstracted sandbox for node.js
+_boxy_ is a simple sandbox that adds node.js functionality to nodes 'vm' module (a v8 vm) and supports coffee script
 
-boxy is used in **spex**
