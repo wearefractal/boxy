@@ -6,12 +6,10 @@ exe = (code, sandbox={}, next) ->
   
   # node stuff for v8 vm
   nodeMixins = 
-    global     : global
-    module     : module
-    process    : process
-    require    : require
-    __filename : __filename
-    __dirname  : __dirname
+    global  : global
+    module  : module
+    process : process
+    require : require
 
   # mixin node stuff
   sandbox = extend sandbox, nodeMixins
