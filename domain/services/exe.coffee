@@ -2,7 +2,7 @@ vm     = require 'vm'
 extend = require('extenze').extend
 unmix  = require('extenze').unmix
 
-exe = (code, sandbox, next) ->
+exe = ({code, sandbox, filename, next}) ->
   
   ###
   # node stuff for v8 vm
